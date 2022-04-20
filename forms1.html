@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<!--This is a section to create a username and password-->
+<body>
+    <section>
+        <h1>Username and Password</h1>
+            <form action="/tacos">
+                <!--This is the code for the username label and input-->
+                <p>
+                    <label for="username">Enter A Name:</label>
+                    <input id="username" type="text" placeholder="Username" name="username">
+                </p>
+                <!--This is the code for the password label and input-->
+                <p>
+                    <label for="password">Enter A Password:</label>
+                    <input id="password" type="password" placeholder="Password" name="password">
+                </p>
+
+                <!--This what peforms a programmable action for the code above -->
+                <button>Submit Button</button>
+
+            </form>
+    </section>
+    <!--This is what divides a page horizontally-->
+    <hr>
+    <!--This section is for the search engines for specific websites-->
+    <section>
+        <!---->
+        <h1>Query Strings</h1>
+            <!--This is the code for the search engine of reddit-->
+            <form action="https://www.reddit.com/search/">
+
+                    <input type="text" name="q">
+                    <button>Submit Reddit</button>
+
+            </form>
+
+            <!--This is the code for the search engine of youtube-->
+            <form action="https://www.youtube.com/results?search_query=">
+
+                <input type="text" name="q">
+                <button>Search Youtube</button>
+
+            </form>
+
+            <!--This is the code for the search engine of google-->
+            <form action="https://www.google.com/search">
+
+                <input type="text" name="q">
+                <button>Search Google</button>
+
+            </form>
+
+    </section>
+    <hr>
+
+</body>
+</html>
