@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--This is a form that includes two textboxes with labels, a drop down menu, and a text area element tag-->
+<body>
+    <section>
+        <!--This is the header for the form-->
+        <h1>Please Fill Out The Form Below</h1>
+            <form action="Sushi">
+                <!--This is the code for label and textbox for the "firstname"-->
+                <p>
+                    
+                    <label for="first name">First Name:</label>
+                    <input id="firstname" type="text" placeholder="First Name" name="firstname">
+               
+                </p>
+                <!--This is the code for the label and text box for "lastname"-->
+                <p>
+                    
+                    <label for="lastname">Last Name:</label>
+                    <input id="lastname" type="lastname" placeholder="Last Name" name="lastname">
+              
+                </p>
+                <!--This is the code for the drop down menu with a label-->
+                <p>
+
+                    <label for="favFood">Which Food Do You Like to Eat?</label>
+
+                    <select name="favorite" id="favFood">
+
+                        <option value="Food">Food</option>
+                        <option value="Crawfish">Crawfish</option>
+                        <option value="Sushi">Sushi</option>
+                        <option value="Steak">Steak</option>
+
+                    </select>
+
+                </p>
+                <!--This is the code for a larger text box for lengthy comments-->
+                <p>
+                    <!--The label is for what is being stated and the text area code for what the text box requires-->
+                    <label for="requests">Do you have any allergies?</label>
+                    <textarea id="requests" name="allergy" rows="1" cols="25" placeholder="Allergies?:"></textarea>
+                
+                </p>
+
+                <button type="send">Send</button>
+            </form>
+    </section>
+
+</body>
+</html>

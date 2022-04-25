@@ -73,7 +73,7 @@
 
                 <!--the p tag is to section off each category into rows-->
                 <p>
-                     <!--This is the code for the radio buttons -->
+                    <!--This is the code for the radio buttons -->
                     <label for="s">Small</label>
                     <input type="radio" name="size" id="s" value="shiesty">
 
@@ -84,12 +84,63 @@
                     <input type="radio" name="size" id="l" value="lagoon">
 
                 </p>
+                <!--This is the code for a drop down menu-->
+                <p>
+
+                    <label for="favColor">What is Your Favorite Color:</label>
+
+                    <select name="favorite" id="favColor">
+
+                        <option value="Color">Color</option>
+
+                        <option value="Red">Red</option>
+
+                        <option value="Green">Green</option>
+
+                        <option value="Orange">Orange</option>
+
+                    </select>
+
+                </p>
+                <!--This is the code for a scrollbar-->
+                <p>
+
+                    <label for="scroll">Josh's Scrollbar</label>
+                    <input type="range" id="scroll" min="21" max="206" name="scrollbar">
+
+                </p>
+                <!--This is the code for a text area box-->
+                <p>
+
+                    <label for="requests">Type Into This Box:</label>
+                    <textarea id="requests" name="Saitama" rows="1" cols="32" placeholder="Type Something Here:"></textarea>
+
+                </p>
+
                 <button>Submit</button>
-
-
             </form>
-
     </section>
+    <hr>
+    <!--This is a new section in the page for form-->
+    <section>
+        <h2>Form Validations</h2>
+            <form action="/JackieChan">
+                <!--This is the code for a required text box. Cannot submit without filling out that box-->
+                <label for="required1"></label>
+                <input type="text" name="WaxOn" id="required1" required>
 
+                <!--This is the code for the minimun and maximum amount of texts in the text box-->
+                <label for="length"></label>
+                <input type="text" name="lengthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+                <!--This is the code for a text box that requires an email with a "@" at the end.-->
+                <input type="email" required>
+
+            </p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>    
 </body>
 </html>
