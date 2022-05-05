@@ -47,7 +47,7 @@ footer > a {
     color:mediumpurple;
 }
 
-/*This is changes text color whenever something is typed*/
+/*This changes text color whenever something is typed*/
 input[type="password"]{
 
     color:mediumpurple;
