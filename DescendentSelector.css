@@ -1,0 +1,55 @@
+/*The hyper link tag is changed by doing "a[href=""] which has a specific identifier to in order to change on thing*/
+a[href="home"]{
+
+    font-size:30px;
+    color:orange;
+}
+
+a[href="contact"]{
+
+    font-size:30px;
+    color:orange;
+}
+
+a[href="about"]{
+
+    font-size:30px;
+    color:orange;
+}
+
+/*This is an id selector which */
+#nice {
+
+    color:mediumslateblue;
+}
+
+/*This is an anchor tag with specific identifiers to each element*/
+a[href="crawfish"]{
+
+    color:aquamarine;
+}
+
+a[href="sushi"]{
+
+    color:aquamarine;
+}
+
+a[href="football"]{
+
+    color:teal;
+}
+
+a[href="soccer"]{
+
+    color:teal;
+}
+
+a[href="peru"]{
+
+    color:darkmagenta;
+}
+
+a[href="southafrica"]{
+
+    color:darkmagenta;
+}

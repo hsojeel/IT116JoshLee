@@ -1,0 +1,90 @@
+/*This is the code for a universal color on the webpage*/
+/**   {
+
+    color:yellow;
+    background-color:pink;
+} */
+
+/*This is the code to style the background and button color of the page*/
+body {
+
+    background-color:beige;
+}
+
+button {
+
+    font-size:25px;
+}
+
+/*This is the code to style specific texts in the page so h1 and h2*/
+h1, h2 {
+
+    color:palevioletred;
+}
+
+/*This is the code for specific elements in the page so this is targeting a specific button through the id*/
+#signup {
+
+    background-color:pink;
+    color:lightblue;
+}
+
+/*This is an element class to focus on a single text*/
+.spongebob {
+
+    color:gold;
+}
+
+/*This element class is focused on the text color of the author of the post*/
+.post a {
+
+    color:coral;
+}
+
+/*The "a href" tag within the footer is changed using ">"*/
+footer > a {
+
+    color:mediumpurple;
+}
+
+/*This is changes text color whenever something is typed*/
+input[type="password"]{
+
+    color:mediumpurple;
+}
+
+input[type="text"]{
+
+    color:red;
+}
+
+/*This is code to change the color of a hyper link*/
+a[href*="google"]{
+
+    color:green;
+}
+
+/*This is a psuedo class where the button hover changes color*/
+button:hover {
+
+    background-color:indianred;
+    color:slategrey;
+}
+
+/*This is the psuedo class where the button changes color when it is submitted*/
+.post button:active {
+
+    background-color:darkkhaki;
+}
+
+/*This is a psuedo element with the two semi:colons for the first letter of each header*/
+h2::first-letter {
+
+    font-size:60px;
+}
+
+/*This is a psuedo element for the first line of the paragraph text*/
+p::first-line {
+
+    color:hotpink;
+}

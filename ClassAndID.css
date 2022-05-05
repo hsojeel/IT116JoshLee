@@ -1,0 +1,43 @@
+/*This is linking the body from the html to change to background color*/
+body {
+
+    background-color:cadetblue;
+}
+
+/*This is a class selector which inclues a "." before the class*/
+.yellow {
+
+    color:yellow;
+}
+
+.brown {
+
+    color:brown;
+}
+.orange {
+
+    color:orange;
+}
+
+.green {
+
+    color:greenyellow;
+}
+
+.blue {
+
+    color:aqua;
+}
+
+/*This is an id selector which is started off which a "#" before the id*/
+#agree {
+
+    color:white;
+    background-color:green;
+}
+
+#dont {
+
+    color:white;
+    background-color:red;
+}

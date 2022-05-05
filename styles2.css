@@ -1,0 +1,40 @@
+h1 {
+    color:orange;
+    text-align:center;
+    font-weight:400;
+    font-size:125px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+h2 {
+    color:plum;
+    text-align:center;
+    font-weight:800;
+    text-decoration:indigo underline;
+
+}
+
+
+h3 {
+    color:skyblue;
+    text-decoration:greenyellow underline;
+    text-align:center;
+    font-weight:450
+
+}
+
+h4 {
+    color:rebeccapurple;
+    text-align:center;
+    font-weight:600;
+    text-decoration:saddlebrown underline;
+
+}
+
+p {
+    line-height:1.5;
+    letter-spacing:0.5;
+    text-align:center;
+
+}
