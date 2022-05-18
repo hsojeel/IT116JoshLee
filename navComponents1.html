@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavComponents</title>
+    <!--This is to link the css stylesheet to the html-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<!--This is a class of navbar extending across the web page to create a navigation handle-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!--This is a fluid container which is always 100% of the breakpoint whenever it collapses-->
+        <div class="container-fluid">
+            <!--Branding: has a class of navbar with an icon that includes a hyper link to another website-->
+            <a class="navbar-brand" href="https://www.twitter.com">
+                <img src="https://i.kym-cdn.com/photos/images/facebook/001/703/582/ff4.png" 
+                alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Twitter
+            </a>
+            <!--Hamburger menu: creates a navigation bar that is shown when collapsed -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>   
+            </button>
+            <!--This will allow the navbar to change accordingly to the way it collapses-->
+            <div class="collapse navbar-collapse" id="navbar1">
+                <!--Allows the search bar to be stationed on the right side of the screen no matter how much the site is collapsed-->
+                <ul class="navbar-nav d-flex me-auto">
+                    <!--These are the lists in the navigation bar with href links-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Main Product</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=a7eUqM9cdSo">Krusty Krab</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=Iby7PLeVUBs">Haikyu</a>
+                    </li>
+                    <!--This is a drop down menu on the navigation bar that includes a list of hyperlinks to other sites-->
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://youtube.com" class="dropdown-item">Youtube</a>
+                            </li>
+
+                            <li>
+                                <a href="https://google.com" class="dropdown-item">Google</a>
+                            </li>
+
+                            <li>
+                                <a href="https://reddit.com" class="dropdown-item">Reddit</a>
+                            </li>
+
+                            <li>
+                                <a href="https://espn.com" class="dropdown-item">ESPN</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+                <!--This is a search bar and a submit button that is side by side-->
+                <form class="d-flex" action="/testing">
+
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!--This is a section that contains bootstrap containers with specific display labels and buttons types-->
+        <section>
+            <!--This is a section to create a container within the list-->
+            <div class="container card">
+                <h1>Header Without Bootstrap Class</h1>
+                <!--This is a class display for the header which changes the size and centers the texts-->
+                <h1 class="display-1 text-center text-primary">Header with Bootstrap Classes</h1>
+                <hr>
+                <h1 class="display-4 text-center">Display 4 Header</h1>
+                <!--This is a button with a class that includes different colors and outlines-->
+                <button type="button" class="btn btn-success">GreenColor</button>
+                <button type="button" class="btn btn-warning">OrangeColor</button>
+                <button type="button" class="btn btn-danger">RedColor</button>
+
+                <button class="btn btn-outline-info">BlueButtonOutline</button>
+                <hr>
+                <h1 class="display-4 text-center">Paragraph Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam rerum quaerat! 
+                Debitis aut harum cum consectetur illo rem numquam impedit voluptas odio! Suscipit reiciendis
+                eius quibusdam. Officiis, modi alias!q
+                </p>
+
+                <hr>
+                <!--This a header with a display type-->
+                <h1 class="display-4 text-center">Group Buttons</h1>
+                <!---->
+                <div class="btn-group">
+                    <button class="btn btn-info">One</button>
+                    <button class="btn btn-info">Two</button>
+                    <button class="btn btn-info">Three</button>
+                </div>
+
+                <hr>
+                <br>
+                <!--This includes a specific display type with an image source right underneath it-->
+                <h1 class="display-4 text-center">Image Source with Bootstrap</h1>
+                <img src="https://m.media-amazon.com/images/M/MV5BMDk3ODcxOWMtZmFmOC00MDMzLWExNTctYmM4MmQyNjNiOTYzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg">
+
+                <blockquote class="blockquote text-left bg-light">
+                    <p class="mb-2">"This is a quote about Kids Next Door"</p>
+                    
+                    <!--This is a footer for the quote so it would show who it is quoted by-->
+                    <footer class="blockquote-footer">Josh</footer>
+
+                </blockquote>
+            </div>
+        </section>
+
+
+    <!--This is to link the bootstrap to the html-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
