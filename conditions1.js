@@ -10,14 +10,14 @@
 //     console.log(randomNumber);
 // } 
 
-// //
+// // Made an if condition where the random number is greater than or equal to .5
 // if (randomNumber >= 0.5) {
 
 //     console.log('Condition Was Met');
 //     console.log(randomNumber);
 // }
 
-// 
+// Creates a day of a week and declares variables with an if condition
 // const dayOfWeek = 'Friday';
 
 // if (dayOfWeek === 'Saturday'){
@@ -34,7 +34,7 @@
 // }
 
 
-// 
+// Created an if variable for age and the run prompt.
 // const age = prompt("Enter An Age");
 
 // if (age < 3) {
@@ -55,7 +55,7 @@
 // }
 
 
-// 
+// This is a switch case statement while declaring variables
 // const fruit = 'Watermelon';
 
 // switch (fruit) {
@@ -77,7 +77,7 @@
 // }
 
 
-// 
+// This is an if condition with a nested condition. Creates a password requirment
 // const password = prompt("Enter in a new password");
 
 // if (password.length >= 6) {
@@ -91,7 +91,7 @@
 // }
 
 
-// 
+// Using the function and name to pass argument parameters into the console
 function singSong() {
 
     console.log("DO");
@@ -103,6 +103,8 @@ singSong()
 singSong()
 singSong()
 
+// Using function and name to pass multiple arguments in the console
+// Uses '${}' to view in the console.log
 function greet(firstName) {
 
     console.log('Hey There, ${firstName}')
